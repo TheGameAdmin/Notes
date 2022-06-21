@@ -16,19 +16,25 @@
 -  `echo "eula=true" > minecraft/eula.txt`
 
 -  `touch minecraft/server.properties`
-	```server-port=19135 
-	rcon.port=19137
-	query.port=19136
-	rcon.password=Minecraft9000
-	enable-rcon=true
-	level-name=world
-	motd=The Game Admin Server
-	max-players=20
-	level-seed=2976643220357667859```
+-  The bottom configuration is for server.properties
+``` 
+server-port=19135
+rcon.port=19137
+query.port=19136
+rcon.password=Minecraft9000
+enable-rcon=true
+level-name=world
+motd=The Game Admin Server
+max-players=20
+level-seed=2976643220357667859 
+```
 ---
 #### Download and Run minecraft
 -  `cd minecraft` 
 -  `wget https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar`
 -  `chmod 750 server.jar`
 -  `java -jar server.jar`
+
+#### Notes
+
 
